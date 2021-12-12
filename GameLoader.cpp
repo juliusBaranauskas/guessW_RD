@@ -41,7 +41,6 @@ Game* ValidateGame(tinyxml2::XMLElement* game)
         return nullptr;
 
     const size_t missingWordCount = CountMissingWordsFromText(gameText);
-    std::cout << "missingWordCount " << missingWordCount << std::endl;
     if (0 == missingWordCount)
         return nullptr;
 

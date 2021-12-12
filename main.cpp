@@ -35,8 +35,7 @@ BOOL CALLBACK DlgMain(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
             auto childH = GetDlgItem(hParent, IDC_CHILDSPACE);
             CreateDialog(GameState::m_hInstance, MAKEINTRESOURCE(IDD_USERNAME_DLG), childH, SelectUsernameLoop);
             if (nullptr == childH)
-                std::cout << "child not yet instantiated" << std::endl;
-            std::cout << (int)(nullptr == GameState::m_childHWND) << std::endl;
+                std::cout << "Child not yet instantiated" << std::endl;
 
              ShowWindow(GameState::m_childHWND, SW_SHOW);
             //SetParent(GameState::m_childHWND, childH);
@@ -52,7 +51,7 @@ BOOL CALLBACK DlgMain(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
         {
             switch(LOWORD(wParam))
             {
-                case 12:
+                case CMD_OPEN_GAME_SELECTOR:
                 {
                     ShowWindow(GameState::m_childHWND, SW_HIDE);
                     DestroyWindow(GameState::m_childHWND);
@@ -62,7 +61,7 @@ BOOL CALLBACK DlgMain(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
                     ShowWindow(GameState::m_childHWND, SW_SHOW);
                     break;
                 }
-                case 13:
+                case CMD_OPEN_GAME:
                 {
                     ShowWindow(GameState::m_childHWND, SW_HIDE);
                     DestroyWindow(GameState::m_childHWND);
@@ -73,7 +72,7 @@ BOOL CALLBACK DlgMain(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
                     break;
                 }
-                case 14:
+                case CMD_OPEN_GAME_RESULTS:
                 {
                     ShowWindow(GameState::m_childHWND, SW_HIDE);
                     DestroyWindow(GameState::m_childHWND);
@@ -83,7 +82,7 @@ BOOL CALLBACK DlgMain(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
                     ShowWindow(GameState::m_childHWND, SW_SHOW);
                     break;
                 }
-                case 15:
+                case CMD_QUIT_GAME:
                 {
                     PostQuitMessage(0);
                     break;
