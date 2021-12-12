@@ -1,9 +1,8 @@
 #include "commonlibs.h"
+#include <iostream>
 
 #include "resource.h"
 #include "GameState.h"
-
-#include <iostream>
 
 
 INT_PTR CALLBACK GameLoop(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
