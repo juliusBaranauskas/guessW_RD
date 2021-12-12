@@ -1,0 +1,19 @@
+<xml>
+    <Game name="Delfi" difficulty="1">
+        <Text>As i _ ratais atvaziuoju, mano _ blizga, as _ vairuoju</Text>
+        <MissingWords>
+            <Word>diskoteka</Word>
+            <Word>ratai</Word>
+            <Word>gerai</Word>
+        </MissingWords>
+    </Game>
+
+    <Game name="Sharpest tool" difficulty="1">
+        <Text>Somebody once _ me the _ is gonna roll me, I _ the sharpest tool in the shed</Text>
+        <MissingWords>
+            <Word>told</Word>
+            <Word>world</Word>
+            <Word>ain't</Word>
+        </MissingWords>
+    </Game>
+</xml>

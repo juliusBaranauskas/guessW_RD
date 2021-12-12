@@ -1,0 +1,19 @@
+<xml>
+    <Game name="Kvyn" difficulty="0">
+        <Text>Dont stop _ now, I'm having _ a _ time</Text>
+        <MissingWords>
+            <Word>me</Word>
+            <Word>such</Word>
+            <Word>good</Word>
+        </MissingWords>
+    </Game>
+	
+	<Game name="Look at this" difficulty="2">
+        <Text>Look at this _. Every _ I do it makes me _.</Text>
+        <MissingWords>
+            <Word>photograph</Word>
+            <Word>time</Word>
+            <Word>laugh</Word>
+        </MissingWords>
+    </Game>
+</xml>
