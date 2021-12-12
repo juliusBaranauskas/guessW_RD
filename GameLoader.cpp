@@ -92,7 +92,6 @@ std::vector<Game> GameLoader::LoadVerifiedGames(std::vector<std::string> gamePat
 
     for (auto &path: gamePaths)
     {
-        std::cout << path.c_str() << std::endl;
         if (tinyxml2::XML_SUCCESS != doc.LoadFile(path.c_str()))
             continue;
 

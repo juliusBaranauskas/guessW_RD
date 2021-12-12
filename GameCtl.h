@@ -30,7 +30,7 @@ INT_PTR CALLBACK GameLoop(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
         // Post the WM_QUIT message to
         // quit the application terminate.
 
-        std::cout << "DESTROY windwos msg received" << std::endl;
+        std::cout << "DESTROY window msg received" << std::endl;
         // PostQuitMessage(0);
         EndDialog(hDlg, 0);
 
