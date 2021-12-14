@@ -16,4 +16,12 @@
             <Word>ain't</Word>
         </MissingWords>
     </Game>
+
+    <Game name="James " difficulty="10">
+        <Text>I tuck you in, warm within, keep you _ from sin, till the Sandman he _</Text>
+        <MissingWords>
+            <Word>free</Word>
+            <Word>comes</Word>
+        </MissingWords>
+    </Game>
 </xml>

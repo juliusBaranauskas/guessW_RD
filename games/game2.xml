@@ -7,13 +7,31 @@
             <Word>good</Word>
         </MissingWords>
     </Game>
-	
-	<Game name="Look at this" difficulty="2">
+
+    <Game name="Photograph" difficulty="2">
         <Text>Look at this _. Every _ I do it makes me _.</Text>
         <MissingWords>
             <Word>photograph</Word>
             <Word>time</Word>
             <Word>laugh</Word>
+        </MissingWords>
+    </Game>
+
+    <Game name="Cicinas" difficulty="2">
+        <Text>Jei meilės _ kitam krante, lai neša burės jį _ tave. Kai _ meilė sugrįš ir abejonių neliks, laivai svajonių dangum skraidys</Text>
+        <MissingWords>
+            <Word>laivas</Word>
+            <Word>pas</Word>
+            <Word>buvus</Word>
+        </MissingWords>
+    </Game>
+
+    <Game name="tall goth" difficulty="10">
+        <Text>She's got a date at _. With Nosferatu. Oh _, Lilly _.</Text>
+        <MissingWords>
+            <Word>midnight</Word>
+            <Word>baby</Word>
+            <Word>Munster</Word>
         </MissingWords>
     </Game>
 </xml>
