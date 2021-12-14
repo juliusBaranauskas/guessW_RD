@@ -21,7 +21,6 @@ GOAL - guess as many of missing words as you can.
 ### Technical details
 - Games are loaded from XML files that are found in `./games` folder
 - There is no XSD schema to validate if a new game you want to add is valid. Regardless, it is not difficult to follow the logic (have a valid XML document, keep the same number of missing words and answers and the same structure of XML document as in the examples and you should be good to go)
--
 
 ## XMLLoader (DLL project)
 Project can be found in `./XMLLoader/` of this repo.<br/>
@@ -33,3 +32,7 @@ XMLLoader DLL lib is included in this project and linked already. If there is a 
 1. Open the `.cbp` file using CodeBlocks
 1. Build the application
 1. Find the `*.dll` and `*.a` files in `bin/Debug/` or `bin/Release/`
+
+
+## Credits:
+- tinyXML2 library was used for reading XML files
